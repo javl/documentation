@@ -37,12 +37,29 @@ Upgrade
 
 Upgrade the database to the latest Odoo version.
 
+In your database you will be invited to upgrade if you are not on the latest version we support on
+the SaaS.
+
+- If you are currently on a long-term supported version of Odoo
+
+  - The upgrade button will propose an upgrade to the latest version (e.g: 13 to 15).
+  - If you are already on the latest version, you will be invited to upgrade to the last Online
+    Version but you can dismiss the request and stay on the latest supported version. You won’t
+    benefit from new features every 2 months.
+
+- If you are on a non supported version (e.g older than Odoo 13). You are invited to upgrade by
+  yourself since those versions are deprecated if you do not upgrade within 2 months, we will
+  trigger the upgrade for you. You will be notified in your database.
+- If you are on an Online Version, you will be invited to upgrade every 2 months to the latest
+  version. We will trigger the upgrade for you if you did not upgrade within those 2 months.
+
 .. warning::
    Upgrading a database to a newer version of Odoo is a complex operation that requires time and
    caution. It is essential to test the upgrade before upgrading the production database.
 
 .. seealso::
    - :doc:`../upgrade/process`
+   - :doc:`supported_versions`
 
 .. _online/duplicate:
 
