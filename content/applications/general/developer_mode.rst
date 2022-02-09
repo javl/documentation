@@ -9,15 +9,19 @@ The developer mode (or debug mode) gives you access to extra and advanced tools.
 Activate through the Settings
 =============================
 
-Go to :menuselection:`Settings --> Activate the developer mode`.
+Go to :menuselection:`Settings --> Activate the developer mode`. 
+
+
+.. note::
+   You need to have at least one app installed for this menu option to appear.
+
 
 .. image:: settings.png
    :align: center
    :alt: Overview of the debug options under settings in Odoo
 
 .. note::
-   *Activate the developer mode (with assets)* is used by developers; *Activate the developer mode
-   (with tests assets)* is used by developers and testers.
+   *Activate the developer mode (with assets)* is used by developers.
 
 Once activated, the *Deactivate the developer mode* option becomes available.
 
